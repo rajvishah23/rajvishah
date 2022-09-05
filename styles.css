@@ -373,6 +373,7 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .skills__list-item {
@@ -475,7 +476,7 @@ main {
     .about__content-title {
       font-weight: 500;
       font-size: 2rem;
-      margin-bottom: 3rem; }
+      margin-bottom: 1.8rem; }
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
           text-align: center;
