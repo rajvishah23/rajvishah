@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" />
   <title>Rajvi Shah</title>
@@ -25,6 +24,9 @@
       <ul class="nav__list center">
         <li class="nav__list-item">
           <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#experience">Experience</a>
         </li>
         <li class="nav__list-item">
           <a class="link link--nav" href="#skills">About</a>
@@ -45,152 +47,123 @@
       <div>
         <a href="#" class="fa fa-twitter"></a>
         <a href="https://github.com/rajvishah23" class="fa fa-github"></a>
-        <a href="#" class="fa fa-linkedin"></a>
+        <a href="https://www.linkedin.com/in/rajvi-shah-bb2567122/" class="fa fa-linkedin"></a>
       </div>
       <!-- About -->
       <div class="about center">
         <h1>Hi, <span class="wave">👋</span> I'm <span class="about__name">Rajvi Shah</span></h1>
-        <p class="about__desc">
-          A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with
-          JavaScript /
-          Reactjs / Nodejs and some other cool libraries and frameworks.
-        </p>
+
+          <p class="about__desc">
+            I’m a passionate <strong>Full Stack Developer</strong> 🚀 with <strong>  4+ years  </strong> of professional experience in designing and
+            building scalable web applications and backend services.  
+            Skilled in <strong>Node.js, React, cloud integrations, and DevOps</strong>, with a strong focus on automation,
+            microservices, and AI-driven solutions.  
+          </p>
+   
 
         <div class="about__contact center">
-          <a href="resume/Rajvi's Resume.pdf" download>
+          <a href="resume/RajviShahResume2025.pdf" download>
             <span class="btn btn--outline">Resume</span>
           </a>
         </div>
       </div>
     </div>
+
     <!-- Projects -->
     <section id="projects" class="section projects">
       <h2 class="section__title">Projects</h2>
 
       <div class="projects__grid">
         <div class="project">
-          <h3>Inshorts-Clone</h3>
+          <h3>Web3 Music Marketplace (Zubloc)</h3>
           <p class="project__description">
-            A MERN Stack project build using Material UI and Express frameworks to fetch news from MongoDB database.
+            A MERN stack web application enabling musicians to securely trade songs using cryptocurrency.
+            Integrated Ethereum wallet access via MetaMask and developed a React-based audio player for seamless
+            streaming and trading.
           </p>
           <ul class="project__stack">
-            <li class="project__stack-item">NodeJS</li>
-            <li class="project__stack-item">JavaScript</li>
             <li class="project__stack-item">React</li>
+            <li class="project__stack-item">Redux</li>
+            <li class="project__stack-item">Express.js</li>
+            <li class="project__stack-item">Ethereum</li>
+            <li class="project__stack-item">MetaMask</li>
           </ul>
-
           <a href="https://github.com/rajvishah23" aria-label="source code" class="link link--icon">
             <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://inshortscloneproject.herokuapp.com/" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
           </a>
         </div>
 
         <div class="project">
-          <h3>Zubloc</h3>
+          <h3>Real-Time Chat Application</h3>
           <p class="project__description">
-            A MERN Stack project build for artists and musicians <br>
-            to buy and sell assets using Metamask wallet.
+            Built a real-time chat application using Node.js and WebSockets for instant messaging.
+            Included secure authentication, message history, and real-time notifications.
           </p>
           <ul class="project__stack">
-            <li class="project__stack-item">Express</li>
-            <li class="project__stack-item">TypeScript</li>
-            <li class="project__stack-item">React</li>
-          </ul>
-
-          <a href="https://github.com/rajvishah23" aria-label="source code" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://zubloc.com/" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-
-        <div class="project">
-          <h3>Cloth-Management-Apis</h3>
-          <p class="project__description">
-            A backend API for a cloth management mobile app.CRUD on clothes(with JWT authentication)
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">NodeJS</li>
-            <li class="project__stack-item">Passport</li>
+            <li class="project__stack-item">Node.js</li>
+            <li class="project__stack-item">WebSocket</li>
             <li class="project__stack-item">JWT</li>
           </ul>
-
           <a href="https://github.com/rajvishah23" aria-label="source code" class="link link--icon">
             <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://inshortscloneproject.herokuapp.com/" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
           </a>
         </div>
 
         <div class="project">
-          <h3>Online Store</h3>
+          <h3>Cloth-Management APIs</h3>
           <p class="project__description">
-            A MERN Stack Online Store build <br> as a guided project from Udemy that handles payment using STRIPE.
+            Backend APIs for a cloth management mobile app.
+            Supported CRUD operations on clothes with JWT-based authentication.
           </p>
           <ul class="project__stack">
-            <li class="project__stack-item">STRIPE</li>
-            <li class="project__stack-item">Mongoose</li>
-            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">Node.js</li>
+            <li class="project__stack-item">Express.js</li>
+            <li class="project__stack-item">JWT</li>
           </ul>
-
-          <a href="https://github.com/rajvishah23/Online-Store-Udemy" aria-label="source code" class="link link--icon">
+          <a href="https://github.com/rajvishah23" aria-label="source code" class="link link--icon">
             <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a href="https://example.com" aria-label="live preview" class="link link--icon">
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Skills -->
+
+    <!-- Skills / About -->
     <section class="section about__new sec-pad" id="skills">
       <div class="main-container">
         <h2 class="section__title">About Me</h2>
         <div class="about__content">
           <div class="about__content-main">
             <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hey! It's
-                <strong>Rajvi Shah</strong>
-                and I'm a <strong> Web Developer </strong> located in
-                Bhavnagar, Gujarat.
-              </p>
-              <p class="about__content-details-para">
-                I am a curious learner. I love building MERN Stack
-                Web Apps.
-                Feel free to
-                <strong>contact</strong> me here.
-              </p>
-            </div>
-            <a href="mailto:rutushah232000@gmail.com">
+            <p class="about__content-details-para">
+              Hey! I'm <strong>Rajvi Shah</strong>, a Full Stack Developer from Ahmedabad.
+              I enjoy solving complex backend challenges, integrating AI tools like ChatGPT,
+              and building scalable applications using the MERN stack.
+            </p>
+            <a href="mailto:rshah.dev1@gmail.com">
               <span class="btn_email btn--outline">Email me</span>
             </a>
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skillset</h3>
             <ul class="skills__list">
+              <li class="skills__list-item btn btn--plain">Node.js</li>
+              <li class="skills__list-item btn btn--plain">Express.js</li>
               <li class="skills__list-item btn btn--plain">React</li>
-              <li class="skills__list-item btn btn--plain">Express</li>
-              <li class="skills__list-item btn btn--plain">JavaScript</li>
-              <li class="skills__list-item btn btn--plain">TypeScript</li>
               <li class="skills__list-item btn btn--plain">Redux</li>
-              <li class="skills__list-item btn btn--plain">Git</li>
-              <li class="skills__list-item btn btn--plain">Material UI</li>
-              <li class="skills__list-item btn btn--plain">Jest</li>
-              <li class="skills__list-item btn btn--plain">Enzyme</li>
-              <li class="skills__list-item btn btn--plain">Docker</li>
+              <li class="skills__list-item btn btn--plain">TypeScript</li>
               <li class="skills__list-item btn btn--plain">MongoDB</li>
-              <li class="skills__list-item btn btn--plain">Handlebars</li>
-              <li class="skills__list-item btn btn--plain">Cheerio</li>
+              <li class="skills__list-item btn btn--plain">AWS</li>
+              <li class="skills__list-item btn btn--plain">Docker</li>
+              <li class="skills__list-item btn btn--plain">Kubernetes (EKS)</li>
+              <li class="skills__list-item btn btn--plain">Microservices</li>
               <li class="skills__list-item btn btn--plain">Puppeteer</li>
-              <li class="skills__list-item btn btn--plain">Formik</li>
-              <li class="skills__list-item btn btn--plain">REST</li>
+              <li class="skills__list-item btn btn--plain">Cheerio</li>
+              <li class="skills__list-item btn btn--plain">Agile / Kanban</li>
+              <li class="skills__list-item btn btn--plain">Unit Testing (Jest, Mocha, Chai)</li>
+              <li class="skills__list-item btn btn--plain">Postman</li>
+              <li class="skills__list-item btn btn--plain">Slack / Webhooks</li>
+              <li class="skills__list-item btn btn--plain">Git / GitHub</li>
             </ul>
           </div>
         </div>
@@ -199,9 +172,8 @@
   </main>
   <footer class="main-footer">
     <div class="main-container">
-      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
       <div class="main-footer__lower">
-        &copy; Copyright 2022. Made by
+        &copy; Copyright 2025. Made by
         <a rel="noreferrer" target="_blank" href="https://rajvishah.netlify.app/">Rajvi Shah</a>
       </div>
     </div>
